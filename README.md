@@ -5,6 +5,8 @@
 
 ## UserStyles on userstyles.org
 
+* [Classypedia](https://userstyles.org/styles/99406/)
+
 ## Development and Testing
 
 ### Source Code
