@@ -5,6 +5,7 @@
 
 ## UserStyles on userstyles.org
 
+* [arXiv.org](https://userstyles.org/styles/100419/)
 * [Classypedia](https://userstyles.org/styles/99406/)
 * [Hide EVE Online Alliance Tournament Spoilers](https://userstyles.org/styles/104433/)
 
