@@ -1,0 +1,10 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document
+  url-prefix('http://community.eveonline.com/community/alliance-tournament/schedule/')
+{
+  .match-winner {
+    color: inherit !important;
+    font-weight: inherit !important;
+  }
+}
