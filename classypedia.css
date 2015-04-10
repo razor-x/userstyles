@@ -1,7 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document
-  domain('wikipedia.org')
+  domain('wikipedia.org'),
+  url-prefix('http://www.agony-unleashed.com/wiki/')
 {
   html, body {
     oveflow-y: scroll;
