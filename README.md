@@ -7,6 +7,8 @@
 
 * [arXiv.org](https://userstyles.org/styles/100419/)
 * [Classypedia](https://userstyles.org/styles/99406/)
+  (Forked from [Classypedia](https://userstyles.org/styles/93067/)
+  by [Nathan Black](https://userstyles.org/users/215406).)
 * [Hide EVE Online Alliance Tournament Spoilers](https://userstyles.org/styles/104433/)
 
 ## Development and Testing
