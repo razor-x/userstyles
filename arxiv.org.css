@@ -1,8 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document
-  domain('arxiv.org')
-{
+  domain('arxiv.org') {
+
   @font-face {
     font-family: 'Open Sans';
     font-style: normal;

@@ -2,8 +2,8 @@
 
 @-moz-document
   domain('wikipedia.org'),
-  url-prefix('http://www.agony-unleashed.com/wiki/')
-{
+  url-prefix('http://www.agony-unleashed.com/wiki/') {
+
   html, body {
     oveflow-y: scroll;
   }
