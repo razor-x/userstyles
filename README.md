@@ -3,6 +3,7 @@
 [![Creative Commons License](http://img.shields.io/badge/license-CC%20BY-red.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/razor-x/userstyles.svg)](https://gemnasium.com/razor-x/userstyles)
 [![Build Status](https://img.shields.io/travis/razor-x/userstyles/libsass.svg)](https://travis-ci.org/razor-x/userstyles)
+[![userstyles.org](https://img.shields.io/badge/userstyles.org-razor--x-blue.svg)](https://userstyles.org/users/249390)
 
 ## UserStyles on userstyles.org
 
