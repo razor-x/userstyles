@@ -45,6 +45,10 @@ grunt clean  # Remove build directory
 grunt watch  # Have Grunt watch for changes
 ```
 
+[Bower]: http://bower.io/
+[Grunt]: http://gruntjs.com/
+[npm]: https://www.npmjs.com/
+
 ## Contributing
 
 Please submit and comment on bug reports and feature requests.
