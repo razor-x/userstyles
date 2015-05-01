@@ -33,6 +33,7 @@ Install the development dependencies with
 
 ```bash
 $ npm install
+$ bower install
 ```
 
 ### Grunt
