@@ -7,11 +7,14 @@ module.exports = (grunt) ->
 
     sass:
       options:
-        sourceMap: true
+        sourceMap: false
         includePaths: ['bower_components']
       dist:
         files:
-          'build/main.css': 'stylesheets/main.sass'
+          'build/arxiv.org.css': 'stylesheets/arxiv.org.sass'
+          'build/classypedia.css': 'stylesheets/classypedia.sass'
+          'build/eve-online-alliance-tournament-spoilers.css':
+            'stylesheets/eve-online-alliance-tournament-spoilers.sass'
 
     watch:
       files: ['stylesheets/**/*.sass', 'stylesheets/**/*.scss']

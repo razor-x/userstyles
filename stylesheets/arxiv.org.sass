@@ -1,0 +1,54 @@
+@namespace url(http://www.w3.org/1999/xhtml)
+
+$domain: "'arxiv.org'"
+
+@-moz-document domain(#{$domain})
+
+  @import fonts/open-sans
+
+  body
+    font-family: 'Open Sans', sans-serif
+    background-color: #f3f3f3
+
+  h1,
+  h2,
+  .list-title
+    font-family: 'Open Sans', sans-serif
+
+  a
+    color: #0099cc
+
+    &:visited
+      color: #9933cc
+
+  .authors a,
+  .list-authors a
+    color: #669900
+
+  .authors a:visited,
+  .list-authors a:visited
+    color: #9933cc
+
+  .arxivid a
+    font-weight: normal
+
+  dt
+    padding-top: 1rem
+
+    a:first-child
+      color: initial
+
+      &:hover
+        text-decoration: none
+
+  .list-identifier a
+    color: #cc0000
+    font-weight: normal
+
+    &:first-child
+      color: #0099cc
+
+  #front a
+    color: #000
+    &:visited
+      color: #9933cc

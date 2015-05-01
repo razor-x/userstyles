@@ -1,0 +1,209 @@
+@namespace url(http://www.w3.org/1999/xhtml)
+
+$domain: "'wikipedia.org'"
+$prefix: "'http://www.agony-unleashed.com/wiki/'"
+
+@-moz-document domain(#{$domain}), url-prefix(#{$prefix})
+
+  @import fonts/roboto
+
+  html,
+  body
+    oveflow-y: scroll
+
+  #left-navigation,
+  #right-navigation li,
+  #siteNotice,
+  #footer,
+  a[title="Learn about new features"],
+  .vectorTabs,
+  .ambox,
+  .plainlinks > tbody > tr > td > a > img,
+  .portal
+    display: none !important
+
+  body
+    background: #f5f5f5 !important
+    font-family: 'Roboto', sans-serif !important
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  h1 > span,
+  .body:before,
+  #firstHeading
+    font-family: 'Roboto', serif !important
+    font-weight: 400
+    color: #333 !important
+    background-color: transparent !important
+    border: none !important
+    border-bottom: 1px solid #ccc !important
+
+  h1
+    font-weight: 200 !important
+
+  a
+    color: #777 !important
+    background-color: transparent !important
+    padding-left: 2px
+    padding-right: 2px
+    -moz-transition: all 0.3s !important
+    -webkit-transition: all 0.3s !important
+    -o-transition: all 0.3s !important
+    transition: all 0.3s !important
+    text-decoration: none !important
+    border-radius: 3px
+
+    &:hover
+      color: white !important
+      background-color: #777 !important
+
+  .firstHeading
+    font-size: 64px !important
+
+  #head
+    left: 50px !important
+    right: 50px !important
+    width: auto !important
+    height: 61px !important
+    padding-top: 10px !important
+
+  .navbox-title,
+  .navbox-group,
+  .navbox-abovebelow
+    background-color: transparent !important
+
+  #head-base,
+  #page-base,
+  #mw-head-base,
+  #mw-page-base
+    height: 80px !important
+    background: transparent !important
+
+  #mw-head
+    position: fixed !important
+    top: 0 !important
+    right: 0 !important
+    width: 100% !important
+    background-color: white !important
+    box-shadow: 0px 0px 20px 0px #ccc
+    z-index: 1000
+
+  #panel,
+  #mw-panel
+    padding: 0 !important
+    top: 10px !important
+    left: 50px !important
+    width: 60px !important
+    height: 60px !important
+
+  #right-navigation
+    float: left !important
+    margin-top: 5px !important
+    margin-bottom: 5px !important
+    margin-left: 20px
+
+  #p-logo
+    position: fixed !important
+    top: 5px !important
+    left: 5px !important
+    width: 25px !important
+    height: 25px !important
+    color: #333 !important
+    text-shadow: 0 3px 2px #fff
+    z-index: 1001
+
+    a
+      position: fixed !important
+      top: 5px !important
+      left: 5px !important
+      width: 25px !important
+      height: 25px !important
+      color: #333 !important
+      text-shadow: 0 3px 2px #fff
+      z-index: 1001
+      background-size: contain !important
+
+  #searchform
+    margin-left: 30px !important
+
+  #simpleSearch
+    margin-top: 0px !important
+
+    label
+      top: 2px !important
+
+  #searchform
+    margin-top: 0px !important
+
+  #content
+    width: auto !important
+    max-width: 1200px
+    padding: 22px 30px !important
+    margin: 0px auto !important
+    background: #fff !important
+    box-shadow: 0px 0px 20px 0px #ccc
+
+  @media (max-width: 1440px)
+    #content
+      width: 80% !important
+      margin-left: 10% !important
+
+  #B14_1120_enWW_dsk_tx_tw
+    display: block !important
+    width: 50% !important
+    right: -48% !important
+    top: 5% !important
+    z-index: 1 !important
+    background-color: white !important
+
+    &:hover
+      right: 0px !important
+
+  #siteSub
+    color: #888 !important
+    font-size: 11px !important
+    line-height: 1.5 !important
+
+  #bodyContent p
+    margin: 19px 0 !important
+    line-height: 1.5 !important
+
+  .infobox > tbody > tr
+    background-color: transparent !important
+    border: none !important
+    border-bottom: 1px solid #ccc !important
+
+    > th
+      background-color: transparent !important
+      border: none !important
+      border-bottom: 1px solid #ccc !important
+
+  .suggestions-result-current
+    background-color: #777 !important
+
+  .suggestions-results > a
+    padding: 0px !important
+    margin: 0px !important
+
+  pre
+    white-space: pre-wrap
+
+  // Freecyber's fixed header option.
+  // https://forum.userstyles.org/discussion/39577
+
+  // Lock header in place.
+  #mw-head
+    position: absolute !important
+
+  // Allow logo to scroll.
+  #p-logo
+    position: relative !important
+    top: -5px !important
+    left: -45px !important
+
+    a
+      position: static !important
