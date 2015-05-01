@@ -4,7 +4,8 @@
   domain('wikipedia.org'),
   url-prefix('http://www.agony-unleashed.com/wiki/') {
 
-  html, body {
+  html,
+  body {
     oveflow-y: scroll;
   }
 
@@ -152,7 +153,9 @@
     padding-top: 10px !important;
   }
 
-  .navbox-title,.navbox-group,.navbox-abovebelow {
+  .navbox-title,
+  .navbox-group,
+  .navbox-abovebelow {
     background-color: transparent !important;
   }
 
@@ -214,7 +217,8 @@
     top: 2px !important;
   }
 
-  #simpleSearch,#searchform {
+  #simpleSearch,
+  #searchform {
     margin-top: 0px !important;
   }
 
@@ -258,7 +262,8 @@
     line-height: 1.5 !important;
   }
 
-  .infobox > tbody > tr > th,.infobox > tbody > tr {
+  .infobox > tbody > tr > th,
+  .infobox > tbody > tr {
     background-color: transparent !important;
       border: none !important;
       border-bottom: 1px solid #ccc !important;
@@ -279,15 +284,15 @@
 
   /*
   Freecyber's fixed header option
-  http://forum.userstyles.org/discussion/39577/x
+  https://forum.userstyles.org/discussion/39577
   */
 
-  /* lock header in place  */
+  /* Lock header in place. */
   #mw-head {
     position: absolute !important;
   }
 
-  /* allow logo to scroll */
+  /* Allow logo to scroll. */
   #p-logo {
     position: relative !important;
     top: -5px !important;
