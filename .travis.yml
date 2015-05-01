@@ -13,3 +13,15 @@ before_script:
   - bower install
 
 script: grunt
+
+deploy:
+  provider: releases
+  api_key:
+    secure: UFiqk8YQFEj100c16JAtAHiq/mtD8cSKbHCdplBXrd03Czaijy0lNrJA8gJcajJ7PTB+rX1Thc+YDymc0akXnzdJ2famV9mwGCN4FFjqCSU8/fi0fWAoJd/FYjWGE6ld4abf5wAgzAaJT7ZPRLmKs3hPhaNbhsuCzcbkWQnaIhk=
+  file:
+    - build/arxiv.org.css
+    - build/classypedia.css
+    - build/eve-online-alliance-tournament-spoilers.css
+  skip_cleanup: true
+  on:
+    tags: true
