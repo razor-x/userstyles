@@ -1,17 +1,19 @@
 {
-  "name": "sass-package",
-  "version": "0.0.0",
+  "name": "userstyles",
+  "version": "0.1.0",
   "authors": [
-    "Your Name <you@example.com>"
+    "Evan Sosenko <razorx@evansosenko.com>"
   ],
-  "description": "Package description.",
+  "description": "UserStyles on userstyles.org.",
   "main": "stylesheets/main.sass",
   "keywords": [
+    "userstyles",
     "sass",
     "css"
   ],
-  "license": "MIT",
-  "homepage": "https://github.com/razor-x/sass-package",
+  "license": "CC BY",
+  "homepage": "https://github.com/razor-x/userstyles",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
