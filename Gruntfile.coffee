@@ -18,6 +18,7 @@ module.exports = (grunt) ->
           src: ['*.sass']
           dest: 'build/'
           ext: '.css'
+          extDot: 'last'
         ]
 
     usebanner:
@@ -32,6 +33,7 @@ module.exports = (grunt) ->
           src: ['*.css']
           dest: 'build/'
           ext: '.css'
+          extDot: 'last'
         ]
 
   watch:
