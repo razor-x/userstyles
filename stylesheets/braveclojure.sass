@@ -5,10 +5,10 @@ $domain: "'www.braveclojure.com'"
 @-moz-document domain(#{$domain})
 
   .page .content
-    float: none
+    float: none !important
 
-    @media only screen and (min-width: 42.563em)
-      float: left
+    @media only screen and (min-width: 47em)
+      float: left !important
 
   .code.pygments
-    overflow: scroll
+    overflow: scroll !important
