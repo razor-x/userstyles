@@ -5,7 +5,7 @@
     "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "description": "UserStyles on userstyles.org.",
-  "main": "stylesheets/main.sass",
+  "main": "stylesheets/main.scss",
   "keywords": [
     "userstyles",
     "sass",
