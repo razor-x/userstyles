@@ -2,6 +2,7 @@
 
 ## HEAD
 
+- Update build pipeline.
 - Add Clojure for the Brave and True.
 
 ## 1.0.1
