@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 1.1.0
 
 - Update build pipeline.
 - Add Clojure for the Brave and True.
