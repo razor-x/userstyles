@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 1.1.1
 
 - Move `@namespace` to `main.scss`.
 
