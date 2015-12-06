@@ -19,27 +19,33 @@
 
 ### Source Code
 
-The [userstyles](https://github.com/razor-x/userstyles)
-source is hosted on GitHub.
+The [userstyles source](https://github.com/razor-x/userstyles)
+is hosted on GitHub.
 To clone the project run
 
-```bash
+```
 $ git clone https://github.com/razor-x/userstyles.git
 ```
 
 ### Requirements
 
-You will need [npm] with [Grunt] and [Bower].
+You will need [npm].
 
 Install the development dependencies with
 
-```bash
+```
 $ npm install
-$ bower install
+```
+
+Build with
+
+```
+$ npm run build
 ```
 
 ### Grunt
 
+You will need [Grunt].
 Run `grunt --help` to see all Grunt tasks.
 
 ```
@@ -48,7 +54,6 @@ grunt clean  # Remove build directory
 grunt watch  # Have Grunt watch for changes
 ```
 
-[Bower]: http://bower.io/
 [Grunt]: http://gruntjs.com/
 [npm]: https://www.npmjs.com/
 
