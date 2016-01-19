@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Fixed
+
+- EVE Online Alliance Tournament Spoilers uses https.
+
 ## [1.1.2] - 2016-01-19
 
 ### Changed
