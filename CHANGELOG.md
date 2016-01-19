@@ -7,6 +7,12 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- Update to [makenew/libsass-package-v2.0.1].
+
+[makenew/libsass-package-v2.0.1]: https://github.com/makenew/libsass-package/releases/tag/libsass-package-v2.0.1
+
 ## [1.1.1] - 2015-12-06
 
 ### Changed
