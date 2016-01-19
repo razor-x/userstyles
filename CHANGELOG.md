@@ -10,6 +10,7 @@ This change log follows the conventions of
 ### Changed
 
 - Update to [makenew/libsass-package-v2.0.1].
+- Use `npm-shrinkwrap.json`.
 
 [makenew/libsass-package-v2.0.1]: https://github.com/makenew/libsass-package/releases/tag/libsass-package-v2.0.1
 
