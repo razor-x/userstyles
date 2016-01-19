@@ -1,9 +1,9 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
-This change log follows the conventions of [keepachangelog.com].
-
-[keepachangelog.com]: http://keepachangelog.com/
+This project adheres to [Semantic Versioning](http://semver.org/).
+This change log follows the conventions of
+[keep a CHANGELOG](http://keepachangelog.com/).
 
 ## [Unreleased][Unreleased]
 
