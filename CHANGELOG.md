@@ -11,7 +11,7 @@ This change log follows the conventions of
 
 - EVE Online Alliance Tournament Spoilers uses https.
 
-## [1.1.2] - 2016-01-19
+## [1.1.2] / 2016-01-19
 
 ### Changed
 
@@ -20,13 +20,13 @@ This change log follows the conventions of
 
 [makenew/libsass-package-v2.0.1]: https://github.com/makenew/libsass-package/releases/tag/libsass-package-v2.0.1
 
-## [1.1.1] - 2015-12-06
+## [1.1.1] / 2015-12-06
 
 ### Changed
 
 - Move `@namespace` to `main.scss`.
 
-## [1.1.0] - 2015-12-06
+## [1.1.0] / 2015-12-06
 
 ### Added
 
@@ -36,13 +36,13 @@ This change log follows the conventions of
 
 - Update build pipeline.
 
-## [1.0.1] - 2015-05-25
+## [1.0.1] / 2015-05-25
 
 ### Changed
 
 - Build pipeline improvements.
 
-## [1.0.0] - 2015-05-01
+## [1.0.0] / 2015-05-01
 
 - Initial release.
 
