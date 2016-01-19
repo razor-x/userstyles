@@ -7,6 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+## [1.1.2] - 2016-01-19
+
 ### Changed
 
 - Update to [makenew/libsass-package-v2.0.1].
@@ -40,7 +42,8 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/razor-x/userstyles/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/razor-x/userstyles/compare/v1.1.2...HEAD
+[1.1.2]: https://github.com/razor-x/userstyles/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/razor-x/userstyles/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/razor-x/userstyles/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/razor-x/userstyles/compare/v1.0.0...v1.0.1
