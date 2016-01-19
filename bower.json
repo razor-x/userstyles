@@ -1,19 +1,24 @@
 {
   "name": "userstyles",
   "version": "1.1.1",
+  "description": "UserStyles on userstyles.org.",
+  "main": "stylesheets/main.scss",
+  "private": true,
   "authors": [
     "Evan Sosenko <razorx@evansosenko.com>"
   ],
-  "description": "UserStyles on userstyles.org.",
-  "main": "stylesheets/main.scss",
   "keywords": [
     "userstyles",
     "sass",
+    "libsass",
     "css"
   ],
   "license": "CC BY",
   "homepage": "https://github.com/razor-x/userstyles",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/razor-x/userstyles.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
@@ -21,6 +26,7 @@
     "test",
     "tests",
     "build",
+    "package.json",
     "Gruntfile.coffee"
   ]
 }

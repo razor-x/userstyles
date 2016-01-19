@@ -1,9 +1,9 @@
 # UserStyles
 
-[![Release](https://img.shields.io/github/release/razor-x/userstyles.svg)](https://github.com/razor-x/userstyles/releases)
-[![Creative Commons License](http://img.shields.io/badge/license-CC%20BY-blue.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/razor-x/userstyles.svg)](https://gemnasium.com/razor-x/userstyles)
-[![Build Status](https://img.shields.io/travis/razor-x/userstyles.svg)](https://travis-ci.org/razor-x/userstyles)
+[![GitHub release](https://img.shields.io/github/release/razor-x/userstyles.svg)](https://github.com/razor-x/userstyles/releases)
+[![GitHub license](http://img.shields.io/badge/license-CC%20BY-blue.svg)](./LICENSE.txt)
+[![Gemnasium](https://img.shields.io/gemnasium/razor-x/userstyles.svg)](https://gemnasium.com/razor-x/userstyles)
+[![Travis](https://img.shields.io/travis/razor-x/userstyles.svg)](https://travis-ci.org/razor-x/userstyles)
 [![userstyles.org](https://img.shields.io/badge/userstyles.org-razor--x-blue.svg)](https://userstyles.org/users/249390)
 
 ## UserStyles on userstyles.org
@@ -19,17 +19,18 @@
 
 ### Source Code
 
-The [userstyles source](https://github.com/razor-x/userstyles)
-is hosted on GitHub.
+The [userstyles source] is hosted on GitHub.
 To clone the project run
 
 ```
 $ git clone https://github.com/razor-x/userstyles.git
 ```
 
+[userstyles source]: https://github.com/razor-x/userstyles
+
 ### Requirements
 
-You will need [npm].
+You will need [Node.js] with [npm].
 
 Install the development dependencies with
 
@@ -37,25 +38,37 @@ Install the development dependencies with
 $ npm install
 ```
 
-Build with
+[Node.js]: https://nodejs.org/
+[npm]: https://www.npmjs.com/
+
+### Build
+
+Install any Bower dependencies and execute the default build task with
 
 ```
-$ npm run build
+$ npm start
 ```
 
 ### Grunt
 
-You will need [Grunt].
-Run `grunt --help` to see all Grunt tasks.
+Optionally, you may run additional development tasks with [Grunt].
+Install it with
 
 ```
-grunt sass   # Compile Sass to CSS
-grunt clean  # Remove build directory
-grunt watch  # Have Grunt watch for changes
+$ npm install --global grunt-cli
+```
+
+Run `$ grunt --help` to see all Grunt tasks.
+
+```
+usebanner # Adds a banner or a footer to a file *
+clean     # Clean files and folders. *
+watch     # Run predefined tasks whenever watched files change.
+sass      # Compile Sass to CSS *
+default   # Alias for "clean", "sass", "usebanner" tasks.
 ```
 
 [Grunt]: http://gruntjs.com/
-[npm]: https://www.npmjs.com/
 
 ## Contributing
 

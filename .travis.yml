@@ -8,8 +8,6 @@ cache:
     - node_modules
 sudo: false
 
-script: npm run build
-
 deploy:
   provider: releases
   api_key:
