@@ -9,6 +9,7 @@ This change log follows the conventions of
 
 ### Fixed
 
+- Fix `grunt watch`.
 - EVE Online Alliance Tournament Spoilers uses https.
 
 ## [1.1.2] / 2016-01-19

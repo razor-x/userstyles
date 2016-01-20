@@ -36,8 +36,8 @@ module.exports = (grunt) ->
           extDot: 'last'
         ]
 
-  watch:
-    files: ['stylesheets/**/*.sass', 'stylesheets/**/*.scss']
-    tasks: ['sass']
+    watch:
+      files: ['stylesheets/**/*.sass', 'stylesheets/**/*.scss']
+      tasks: ['sass']
 
   grunt.registerTask 'default', ['clean', 'sass', 'usebanner']
