@@ -9,8 +9,11 @@ This change log follows the conventions of
 
 ### Added
 
+- Add [Inconsolata] and [Inconsolata-g] fonts.
 - Add [Monoid] font.
 
+[Inconsolata]: http://www.levien.com/type/myfonts/inconsolata.html
+[Inconsolata-g]: http://leonardo-m.livejournal.com/77079.html
 [Monoid]: https://larsenwork.com/monoid/
 
 ### Changed

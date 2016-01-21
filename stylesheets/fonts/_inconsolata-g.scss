@@ -1,0 +1,6 @@
+$cdn: 'https://cdn.rawgit.com/powerline/fonts/master/Inconsolata-g';
+
+@font-face {
+  font-family: 'Inconsolata-g';
+  src: url('#{$cdn}/Inconsolata-g for Powerline.otf') format('opentype');
+}
