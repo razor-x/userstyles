@@ -18,13 +18,16 @@ This change log follows the conventions of
 
 ### Changed
 
-- Replace Roboto with Noto Sans and Noto Serif.
-  Affects **Classypedia.**.
+- Replace [Roboto] with [Noto Sans][Noto] and [Noto Serif][Noto].
+  Affects *Classypedia*.
+
+[Noto]: https://www.google.com/get/noto/
+[Roboto]: https:a//github.com/google/roboto
 
 ### Fixed
 
 - Fix `grunt watch`.
-- EVE Online Alliance Tournament Spoilers uses https.
+- *EVE Online Alliance Tournament Spoilers* uses https.
 
 ## [1.1.2] / 2016-01-19
 
@@ -45,7 +48,7 @@ This change log follows the conventions of
 
 ### Added
 
-- Add Clojure for the Brave and True.
+- New *Clojure for the Brave and True* style.
 
 ### Changed
 
