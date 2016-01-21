@@ -7,6 +7,11 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- Replace Roboto with Noto Sans and Noto Serif.
+  Affects **Classypedia.**.
+
 ### Fixed
 
 - Fix `grunt watch`.
