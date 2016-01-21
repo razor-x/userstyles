@@ -7,6 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+## [1.2.1] / 2016-01-21
+
 ### Fixed
 
 - Normalize *Classypedia* TOC spacing on Chrome.
@@ -72,7 +74,8 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/razor-x/userstyles/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/razor-x/userstyles/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/razor-x/userstyles/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/razor-x/userstyles/compare/v1.1.2...v1.2.0
 [1.1.2]: https://github.com/razor-x/userstyles/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/razor-x/userstyles/compare/v1.1.0...v1.1.1

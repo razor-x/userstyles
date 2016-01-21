@@ -1,6 +1,6 @@
 {
   "name": "userstyles",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "UserStyles on userstyles.org.",
   "main": "stylesheets/main.scss",
   "private": true,
