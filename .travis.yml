@@ -17,6 +17,7 @@ deploy:
     - build/braveclojure.css
     - build/classypedia.css
     - build/eve-online-alliance-tournament-spoilers.css
+    - build/github.css
   skip_cleanup: true
   on:
     tags: true

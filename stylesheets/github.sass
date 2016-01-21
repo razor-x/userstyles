@@ -1,0 +1,32 @@
+@import main
+
+$domain: "'github.com'"
+
+$font-gh-emoji: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+$font-gh-body: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif
+$font-gh-sans: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif
+$font-gh-monospace: 'Liberation Mono', Menlo, Courier, monospace, #{$font-gh-emoji}
+
+$font-sans: 'Noto Sans', 'Open Sans'
+$font-monospace: 'Inconsolata-g', 'Inconsolata'
+$font-emoji: 'Noto Color Emoji'
+
+@-moz-document domain(#{$domain})
+
+  // Must install fonts on the OS since GitHub's CSP blocks external fonts.
+  // @import fonts/noto-sans
+  // @import fonts/monoid
+  // @import fonts/inconsolata-g
+  // @import fonts/inconsolata
+
+  body
+    font-family: #{$font-sans}, #{$font-emoji}, #{$font-gh-body}, #{$font-gh-emoji}
+
+  pre
+    font-family: #{$font-monospace}, 'Noto Emoji', #{$font-gh-monospace}
+
+  div.file .blob-code-inner
+    font-family: Monoid, #{$font-monospace}, 'Noto Emoji', #{$font-gh-monospace}
+
+  .markdown-body
+    font-family: #{$font-sans}, 'Noto Emoji', #{$font-gh-sans}, #{$font-gh-emoji}

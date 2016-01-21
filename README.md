@@ -13,6 +13,7 @@
   (Forked from [Classypedia](https://userstyles.org/styles/93067/)
   by [Nathan Black](https://userstyles.org/users/215406).)
 * [Clojure for the Brave and True](https://userstyles.org/styles/121554/)
+* [GitHub Pixel](https://userstyles.org/styles/123359/).
 * [Hide EVE Online Alliance Tournament Spoilers](https://userstyles.org/styles/104433/)
 
 ## Development and Testing

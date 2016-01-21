@@ -9,6 +9,7 @@ This change log follows the conventions of
 
 ### Added
 
+- New *GitHub* style.
 - Add [Inconsolata] and [Inconsolata-g] fonts.
 - Add [Monoid] font.
 
