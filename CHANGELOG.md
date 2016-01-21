@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Fixed
+
+- Normalize *Classypedia* TOC spacing on Chrome.
+
 ## [1.2.0] / 2016-01-21
 
 ### Added
