@@ -10,6 +10,7 @@ This change log follows the conventions of
 ### Fixed
 
 - Normalize *Classypedia* TOC spacing on Chrome.
+- Visible *Classypedia* TOC hover color.
 
 ## [1.2.0] / 2016-01-21
 
