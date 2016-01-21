@@ -1,0 +1,48 @@
+$cdn: 'https://cdn.rawgit.com/larsenwork/monoid/gh-pages/css';
+
+@font-face {
+  font-family: 'Monoid Regular';
+  src: url('#{$cdn}/Monoid-Regular.eot');
+  /* IE9 Compat Modes */
+  src: url('#{$cdn}/Monoid-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$cdn}/Monoid-Regular.woff2') format('woff2'),
+  url('#{$cdn}/Monoid-Regular.woff') format('woff'),
+  url('#{$cdn}/Monoid-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Monoid Bold';
+  src: url('#{$cdn}/Monoid-Bold.eot');
+  /* IE9 Compat Modes */
+  src: url('#{$cdn}/Monoid-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$cdn}/Monoid-Bold.woff2') format('woff2'),
+  url('#{$cdn}/Monoid-Bold.woff') format('woff'),
+  url('#{$cdn}/Monoid-Bold.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Monoid Italic';
+  src: url('#{$cdn}/Monoid-Italic.eot');
+  /* IE9 Compat Modes */
+  src: url('#{$cdn}/Monoid-Italic.eot?#iefix') format('embedded-opentype'),
+  url('#{$cdn}/Monoid-Italic.woff2') format('woff2'),
+  url('#{$cdn}/Monoid-Italic.woff') format('woff'),
+  url('#{$cdn}/Monoid-Italic.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'monoisomeregular';
+  src: url('#{$cdn}/monoisome-regular.eot');
+  src: url('#{$cdn}/monoisome-regular.eot?#iefix') format('embedded-opentype'),
+       url('#{$cdn}/monoisome-regular.woff2') format('woff2'),
+       url('#{$cdn}/monoisome-regular.woff') format('woff'),
+       url('#{$cdn}/monoisome-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

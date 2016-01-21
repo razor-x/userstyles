@@ -7,6 +7,12 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Added
+
+- Add [Monoid] font.
+
+[Monoid]: https://larsenwork.com/monoid/
+
 ### Changed
 
 - Replace Roboto with Noto Sans and Noto Serif.
