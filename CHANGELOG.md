@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Changed
+
+- Set `tab-size: 2` for GitHub code.
+
 ## [1.2.1] / 2016-01-21
 
 ### Fixed
