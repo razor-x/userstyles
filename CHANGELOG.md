@@ -7,6 +7,8 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+## [1.2.2] / 2016-05-02
+
 ### Changed
 
 - Set `tab-size: 2` for GitHub code.
@@ -78,7 +80,8 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/razor-x/userstyles/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/razor-x/userstyles/compare/v1.2.2...HEAD
+[1.2.2]: https://github.com/razor-x/userstyles/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/razor-x/userstyles/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/razor-x/userstyles/compare/v1.1.2...v1.2.0
 [1.1.2]: https://github.com/razor-x/userstyles/compare/v1.1.1...v1.1.2
