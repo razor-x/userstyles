@@ -7,6 +7,10 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+### Added
+
+- Use postcss with autoprefixer.
+
 ## [1.2.2] / 2016-05-02
 
 ### Changed

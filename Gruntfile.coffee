@@ -7,6 +7,15 @@ module.exports = (grunt) ->
     clean:
       folder: 'build'
 
+    postcss:
+      dist:
+        src: 'build/*.css'
+      options:
+        processors: [
+          require('autoprefixer')(),
+          require('cssnano')()
+        ]
+
     sass:
       options:
         sourceMap: false
@@ -40,4 +49,4 @@ module.exports = (grunt) ->
       files: ['stylesheets/**/*.sass', 'stylesheets/**/*.scss']
       tasks: ['sass']
 
-  grunt.registerTask 'default', ['clean', 'sass', 'usebanner']
+  grunt.registerTask 'default', ['clean', 'sass', 'postcss', 'usebanner']
